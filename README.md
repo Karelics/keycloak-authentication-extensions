@@ -8,4 +8,6 @@ Set the correct keycloak version in the `pom.xml` file.
 ```
 To build the package, execute `mvn package` command, which creates `target/deploy/authentication-extensions-module-0.1.jar` package file.
 
-To deploy the package to keycloak, it needs to be placed in the `/opt/keycloak/providers` directory of the Keycloak and execute `build` or `start` command of Keycloak.
+To deploy the package to keycloak, place it in the `/opt/keycloak/providers` directory of the Keycloak and execute `build` or `start` command of Keycloak.
+
+After deployment, the condition "Condition - SSO configured" becomes available in the conditions of the authentication flows in the Keycloak administration panel.
