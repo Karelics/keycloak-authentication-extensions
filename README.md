@@ -1,5 +1,5 @@
 # Keycloak extension: conditional authenticator to check if the user has SSO configured
-This is a sample keycloak extension that provides the condition in the authentication flow to check whether the user has single sign-on (linked identity provider) configured.
+This is a sample keycloak extension that provides the condition in the authentication flow to check whether the user has single sign-on (linked identity provider) configured. See the [blog post](https://karelics.fi/building-a-custom-conditional-authenticator-for-keycloak) for a detailed description.
 
 # Usage
 Set the correct keycloak version in the `pom.xml` file.
